@@ -59,7 +59,7 @@ Version 0.1
 8. (Optional) Run command `help` or read this document to know more
 
 ## Download
-Here will be info where you can download it
+Currently `ktotu` is not hosted as binary. You can build from source code on your own - it's very simple. See: [Building from source code](#building-from-source-code)
 
 ## Install
 ### Run `install` script
@@ -191,15 +191,16 @@ Along with `ktotu`, there is `mac_addresses_scanner` in the same location - `/op
 Performing scan requires `sudo`, in order to run `/opt/ktotu/mac_addresses_scanner`
 
 ## Building from source code
-If you don't want to use compiled version, you can build `ktotu` from the source.
+You can build `ktotu` from the source.
 
 ### Prerequisities
+- Download source code from official repository - https://gitlab.com/jmaczan/ktotu
 - Python 3
-- pip
+- pip3
 - Debian-based Linux (build scripts use `apt`, but you can modify this to your own needs - build scripts are simple `bash` commands)
 
 ### Build
-Run script `./build-from-source.sh`
+Inside folder with source code, run script `./build-from-source.sh`
 
 Output files will appear in folder `dist/`
 
@@ -225,6 +226,7 @@ Source code of `ktotu` uses minimal amount of dependencies - currently it's only
 I encourage all of you to read the source code and try to hack `ktotu`. I will be grateful for your contribution in application security.
 
 ## Roadmap
+- CI/CD build that produces binary artifact
 - Faster and more accurate scanning
 - User's input sanitization
 - Security audit of `ktotu`
