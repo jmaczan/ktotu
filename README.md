@@ -2,6 +2,8 @@
 
 Command-line tool to tag devices in your network and monitor it against intruders
 
+[<img src="ktotu.png" max-height="300">](ktotu)
+
 Version 0.1
 
 ## tl;dr
