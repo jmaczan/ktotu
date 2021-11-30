@@ -1,0 +1,10 @@
+def about():
+    print("About:\n")
+    print("ktotu - version 0.1\n")
+    print("Command-line tool to tag devices in your network and monitor it against intruders\n")
+    print("Website: https://maczan.pl/ktotu")
+    print("Author: Jedrzej Pawel Maczan")
+    print("Name origin: In Polish \"kto tu (jest)?\" means \"who (is) here?\"")
+    print("\nLicense: GNU General Public License v2.")
+    print("Dependencies: This project uses Python 3 and python3-scapy. Scapy is released under GNU General Public License v2.")
+    print("\nMade in Poland")

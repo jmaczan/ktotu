@@ -1,0 +1,6 @@
+rootPath = '/root'
+ktotu = 'ktotu'
+mac_addresses_scanner = 'mac_addresses_scanner'
+ktotu_path = '/opt/ktotu'
+ktotu_symlink_path = '/usr/local/bin/ktotu'
+user_files_directory_path = '.ktotu'
