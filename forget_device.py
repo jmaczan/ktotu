@@ -32,7 +32,7 @@ def forget_device_by_id(id):
     name = list(known_devices.values())[id]['name']
     known_devices.pop(mac_address)
     write_known_devices_to_file(known_devices)
-    print("Done. I forgot %s #%s with mac address %s" % ((name if name != '' else "unnamed device"), id, mac_address))
+    print("Done. I forgot %s #%s with MAC address %s" % ((name if name != '' else "untagged device"), id, mac_address))
 
 def get_id_from_user():
     print_known_devices()
