@@ -225,7 +225,7 @@ Source code of `ktotu` uses minimal amount of dependencies - currently it's only
 
 `ktotu` is on early stage of development and it might have security issues. Eliminating potential vulnerabilities is one of top priorities in development roadmap.
 
-I encourage all of you to read the source code and try to hack `ktotu`. I will be grateful for your contribution in application security.
+I encourage all of you to read the source code and try to hack your own instance of `ktotu`. I will be grateful for your contribution in application security.
 
 ## Roadmap
 - CI/CD build that produces binary artifact
