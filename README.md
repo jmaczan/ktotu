@@ -1,3 +1,5 @@
+<p align="center"><img width="150" src="ktotulogo.png" alt="ktotu logo"></p>
+
 # `ktotu`
 
 Command-line tool to tag devices in your network and monitor it against intruders
